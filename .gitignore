@@ -1,0 +1,6 @@
+*.sw[op]
+*~
+*#
+**/.Xil
+**/.git
+projects/*/proj
