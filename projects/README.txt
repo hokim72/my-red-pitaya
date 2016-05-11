@@ -1,4 +1,14 @@
 led_blinker
 cfg_test
 sts_test
+bram_test
 writer_test
+packetizer_test
+dds_test
+
+dac_test
+cordic_test
+pha_test
+histogram_test
+adc_test
+switch_test
