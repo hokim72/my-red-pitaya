@@ -52,16 +52,19 @@ create_bd_port -dir O -from 7 -to 0 led_o
 
 
 # Create processing_system7
-cell xilinx.com:ip:processing_system7:5.5 ps_0 {
-  PCW_USE_S_AXI_HP0 1
-} {
-  M_AXI_GP0_ACLK ps_0/FCLK_CLK0
-  S_AXI_HP0_ACLK ps_0/FCLK_CLK0
-}
-
+#cell xilinx.com:ip:processing_system7:5.5 ps_0 {
 #  PCW_IMPORT_BOARD_PRESET red_pitaya.xml
+#  PCW_USE_S_AXI_HP0 1
+#} {
+#  M_AXI_GP0_ACLK ps_0/FCLK_CLK0
+#  S_AXI_HP0_ACLK ps_0/FCLK_CLK0
+#}
+cell xilinx.com:ip:processing_system7:5.5 ps_0
 source red_pitaya.tcl
 set_property -dict [apply_preset IPINST] [get_bd_cells ps_0]
+set_property CONFIG.PCW_USE_S_AXI_HP0 1 [get_bd_cells ps_0]
+connect_bd_net [get_bd_pins ps_0/M_AXI_GP0_ACLK] [get_bd_pins ps_0/FCLK_CLK0]
+connect_bd_net [get_bd_pins ps_0/S_AXI_HP0_ACLK] [get_bd_pins ps_0/FCLK_CLK0]
 
 # Create all required interconnections
 apply_bd_automation -rule xilinx.com:bd_rule:processing_system7 -config {

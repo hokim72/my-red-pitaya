@@ -21,9 +21,10 @@ int main()
 	reader = mmap(NULL, sysconf(_SC_PAGESIZE), PROT_READ|PROT_WRITE, MAP_SHARED, fd, 0x40002000);
 
 	*((uint32_t *)(cfg + 0)) = 0;
+	//*((uint32_t *)(cfg + 4)) = 1024-1;
+	*((uint32_t *)(cfg + 4)) = 2048-1;
+	*((uint32_t *)(cfg + 0)) = 2;
 	*((uint32_t *)(cfg + 0)) = 3;
-	//*((uint32_t *)(cfg + 4)) = 1024;
-	*((uint32_t *)(cfg + 4)) = 2048;
 	sleep(1);
 	for (i=0; i<1024; i++){
 		printf("bram data = %d\n", *((uint32_t *)(reader+i*4)));

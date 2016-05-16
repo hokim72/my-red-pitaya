@@ -1,0 +1,33 @@
+[*]
+[*] GTKWave Analyzer v3.3.66 (w)1999-2015 BSI
+[*] Sun May 15 03:41:54 2016
+[*]
+[dumpfile] "/home/hokim/work/my-red-pitaya/tbn/axis_bram_writer_v1_0/build/axis_bram_writer_tb.vcd"
+[dumpfile_mtime] "Sun May 15 03:23:55 2016"
+[dumpfile_size] 2531275
+[savefile] "/home/hokim/work/my-red-pitaya/tbn/axis_bram_writer_v1_0/build/test.gtkw"
+[timestart] 122000
+[size] 1920 1056
+[pos] -921 -1
+*-14.679411 5477000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 225
+[signals_width] 214
+[sst_expanded] 1
+[sst_vpaned_height] 320
+@28
+axis_bram_writer_tb.clk
+axis_bram_writer_tb.rstn
+axis_bram_writer_tb.rstn2
+axis_bram_writer_tb.tready2
+axis_bram_writer_tb.tvalid2
+@22
+axis_bram_writer_tb.tdata2[63:0]
+@28
+axis_bram_writer_tb.bram_porta_clk
+axis_bram_writer_tb.bram_porta_rst
+@22
+axis_bram_writer_tb.bram_porta_addr[8:0]
+axis_bram_writer_tb.bram_porta_we[7:0]
+axis_bram_writer_tb.bram_porta_wrdata[63:0]
+[pattern_trace] 1
+[pattern_trace] 0

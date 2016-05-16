@@ -1,0 +1,31 @@
+[*]
+[*] GTKWave Analyzer v3.3.66 (w)1999-2015 BSI
+[*] Sun May 15 13:38:14 2016
+[*]
+[dumpfile] "/home/hokim/work/my-red-pitaya/tbn/axis_red_pitaya_adc_v1_0/build/axis_red_pitaya_adc_tb.vcd"
+[dumpfile_mtime] "Thu May 12 00:59:16 2016"
+[dumpfile_size] 109198
+[savefile] "/home/hokim/work/my-red-pitaya/tbn/axis_red_pitaya_adc_v1_0/view.gtkw"
+[timestart] 0
+[size] 1920 1056
+[pos] -921 -429
+*-14.078701 60000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 225
+[signals_width] 150
+[sst_expanded] 1
+[sst_vpaned_height] 320
+@28
+axis_red_pitaya_adc_tb.adc_clk_p
+axis_red_pitaya_adc_tb.adc_clk_n
+@22
+axis_red_pitaya_adc_tb.adc_dat_a[13:0]
+axis_red_pitaya_adc_tb.adc_dat_b[13:0]
+@28
+axis_red_pitaya_adc_tb.tvalid
+@22
+axis_red_pitaya_adc_tb.tdata[31:0]
+@28
+axis_red_pitaya_adc_tb.adc_clk
+axis_red_pitaya_adc_tb.adc_csn
+[pattern_trace] 1
+[pattern_trace] 0

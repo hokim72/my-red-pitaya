@@ -1,0 +1,22 @@
+[*]
+[*] GTKWave Analyzer v3.3.66 (w)1999-2015 BSI
+[*] Sun May 15 09:15:02 2016
+[*]
+[dumpfile] "/home/hokim/work/my-red-pitaya/tbn/c_counter_binary_v12_0_8/build/bcntr_tb.vcd"
+[dumpfile_mtime] "Sun May 15 09:08:21 2016"
+[dumpfile_size] 5047
+[savefile] "/home/hokim/work/my-red-pitaya/tbn/c_counter_binary_v12_0_8/build/view.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] 506 -321
+*-13.628799 21590 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 225
+[signals_width] 86
+[sst_expanded] 1
+[sst_vpaned_height] 160
+@28
+bcntr_tb.clk
+@22
+bcntr_tb.q[31:0]
+[pattern_trace] 1
+[pattern_trace] 0

@@ -1,0 +1,28 @@
+[*]
+[*] GTKWave Analyzer v3.3.66 (w)1999-2015 BSI
+[*] Sun May 15 16:18:45 2016
+[*]
+[dumpfile] "/home/hokim/work/my-red-pitaya/tbn/blk_mem_gen_v8_3_1/build/blk_mem_gen_tb.vcd"
+[dumpfile_mtime] "Sun May 15 16:15:15 2016"
+[dumpfile_size] 1006786
+[savefile] "/home/hokim/work/my-red-pitaya/tbn/blk_mem_gen_v8_3_1/view.gtkw"
+[timestart] 4211720
+[size] 1920 1056
+[pos] -921 -1
+*-13.042496 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 225
+[signals_width] 118
+[sst_expanded] 1
+[sst_vpaned_height] 642
+@28
+blk_mem_gen_tb.clk
+@22
+blk_mem_gen_tb.addra[8:0]
+@28
+blk_mem_gen_tb.wea
+@22
+blk_mem_gen_tb.dina[63:0]
+blk_mem_gen_tb.addrb[9:0]
+blk_mem_gen_tb.doutb[31:0]
+[pattern_trace] 1
+[pattern_trace] 0

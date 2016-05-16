@@ -1,0 +1,49 @@
+[*]
+[*] GTKWave Analyzer v3.3.66 (w)1999-2015 BSI
+[*] Sun May 15 13:25:39 2016
+[*]
+[dumpfile] "/home/hokim/work/my-red-pitaya/tbn/axi_cfg_register_v1_0/build/axi_cfg_register_tb.vcd"
+[dumpfile_mtime] "Fri May 13 14:28:04 2016"
+[dumpfile_size] 14570
+[savefile] "/home/hokim/work/my-red-pitaya/tbn/axi_cfg_register_v1_0/view.gtkw"
+[timestart] 0
+[size] 1920 1056
+[pos] -921 -429
+*-16.298264 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 225
+[signals_width] 158
+[sst_expanded] 1
+[sst_vpaned_height] 320
+@28
+axi_cfg_register_tb.clk
+axi_cfg_register_tb.rstn
+@22
+axi_cfg_register_tb.axi_awaddr[31:0]
+@28
+axi_cfg_register_tb.axi_awready
+axi_cfg_register_tb.axi_awvalid
+axi_cfg_register_tb.axi_wready
+axi_cfg_register_tb.axi_wvalid
+@22
+axi_cfg_register_tb.axi_wstrb[3:0]
+axi_cfg_register_tb.axi_wdata[31:0]
+@28
+axi_cfg_register_tb.axi_bready
+axi_cfg_register_tb.axi_bvalid
+axi_cfg_register_tb.axi_bresp[1:0]
+@22
+axi_cfg_register_tb.axi_araddr[31:0]
+@28
+axi_cfg_register_tb.axi_arready
+axi_cfg_register_tb.axi_arvalid
+axi_cfg_register_tb.axi_rready
+@29
+axi_cfg_register_tb.axi_rvalid
+@22
+axi_cfg_register_tb.axi_rdata[31:0]
+@28
+axi_cfg_register_tb.axi_rresp[1:0]
+@22
+axi_cfg_register_tb.cfg_data[1023:0]
+[pattern_trace] 1
+[pattern_trace] 0

@@ -1,0 +1,24 @@
+[*]
+[*] GTKWave Analyzer v3.3.66 (w)1999-2015 BSI
+[*] Sun May 15 13:35:56 2016
+[*]
+[dumpfile] "/home/hokim/work/my-red-pitaya/tbn/axis_counter_v1_0/build/axis_counter_tb.vcd"
+[dumpfile_mtime] "Sun May 15 00:26:43 2016"
+[dumpfile_size] 62911
+[savefile] "/home/hokim/work/my-red-pitaya/tbn/axis_counter_v1_0/view.gtkw"
+[timestart] 69500
+[size] 1920 1056
+[pos] -921 -429
+*-17.362368 332000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 225
+[signals_width] 118
+[sst_expanded] 1
+[sst_vpaned_height] 320
+@28
+axis_counter_tb.clk
+axis_counter_tb.rstn
+axis_counter_tb.tvalid
+@22
+axis_counter_tb.tdata[31:0]
+[pattern_trace] 1
+[pattern_trace] 0

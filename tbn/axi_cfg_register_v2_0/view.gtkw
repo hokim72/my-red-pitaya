@@ -1,0 +1,38 @@
+[*]
+[*] GTKWave Analyzer v3.3.66 (w)1999-2015 BSI
+[*] Mon May 16 11:17:14 2016
+[*]
+[dumpfile] "/home/hokim/work/my-red-pitaya/tbn/axi_cfg_register_v2_0/build/axi_cfg_register_tb.vcd"
+[dumpfile_mtime] "Mon May 16 11:06:35 2016"
+[dumpfile_size] 11156
+[savefile] "/home/hokim/work/my-red-pitaya/tbn/axi_cfg_register_v2_0/view.gtkw"
+[timestart] 108300
+[size] 1920 1056
+[pos] -1 -1
+*-15.298263 259730 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 225
+[signals_width] 158
+[sst_expanded] 1
+[sst_vpaned_height] 320
+@28
+axi_cfg_register_tb.clk
+axi_cfg_register_tb.rstn
+@22
+axi_cfg_register_tb.axi_awaddr[31:0]
+@28
+axi_cfg_register_tb.axi_awready
+axi_cfg_register_tb.axi_awvalid
+axi_cfg_register_tb.axi_wvalid
+axi_cfg_register_tb.axi_wready
+@23
+axi_cfg_register_tb.axi_wstrb[3:0]
+@22
+axi_cfg_register_tb.axi_wdata[31:0]
+@28
+axi_cfg_register_tb.axi_bready
+axi_cfg_register_tb.axi_bvalid
+axi_cfg_register_tb.axi_bresp[1:0]
+@22
+axi_cfg_register_tb.cfg_data[63:0]
+[pattern_trace] 1
+[pattern_trace] 0

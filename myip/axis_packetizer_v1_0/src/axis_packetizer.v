@@ -51,7 +51,8 @@ module axis_packetizer #
 
   generate
     if(CONTINUOUS == "TRUE")
-    begin : CONTINUOUS
+    //begin : CONTINUOUS
+    begin 
       always @*
       begin
         int_cntr_next = int_cntr_reg;

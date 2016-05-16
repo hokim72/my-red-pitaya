@@ -1,0 +1,30 @@
+[*]
+[*] GTKWave Analyzer v3.3.66 (w)1999-2015 BSI
+[*] Sun May 15 13:31:43 2016
+[*]
+[dumpfile] "/home/hokim/work/my-red-pitaya/tbn/axis_packetizer_v1_0/build/axis_packetizer_tb.vcd"
+[dumpfile_mtime] "Sun May 15 00:43:41 2016"
+[dumpfile_size] 88870
+[savefile] "/home/hokim/work/my-red-pitaya/tbn/axis_packetizer_v1_0/view.gtkw"
+[timestart] 0
+[size] 1920 1056
+[pos] -921 -429
+*-17.381136 252000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 225
+[signals_width] 126
+[sst_expanded] 1
+[sst_vpaned_height] 320
+@28
+axis_packetizer_tb.clk
+axis_packetizer_tb.rstn
+axis_packetizer_tb.tvalid
+@22
+axis_packetizer_tb.tdata[31:0]
+@28
+axis_packetizer_tb.tvalid2
+@22
+axis_packetizer_tb.tdata2[31:0]
+@28
+axis_packetizer_tb.tlast2
+[pattern_trace] 1
+[pattern_trace] 0

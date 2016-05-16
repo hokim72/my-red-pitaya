@@ -1,0 +1,29 @@
+[*]
+[*] GTKWave Analyzer v3.3.66 (w)1999-2015 BSI
+[*] Sun May 15 09:46:20 2016
+[*]
+[dumpfile] "/home/hokim/work/my-red-pitaya/tbn/axis_dwidth_converter_v1_1_6/build/axis_dwidth_converter_tb.vcd"
+[dumpfile_mtime] "Sun May 15 09:45:02 2016"
+[dumpfile_size] 316698
+[savefile] "/home/hokim/work/my-red-pitaya/tbn/axis_dwidth_converter_v1_1_6/view.gtkw"
+[timestart] 107390
+[size] 1920 1056
+[pos] -921 -1
+*-14.069672 276000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 225
+[signals_width] 126
+[sst_expanded] 1
+[sst_vpaned_height] 320
+@28
+axis_dwidth_converter_tb.clk
+axis_dwidth_converter_tb.rstn
+axis_dwidth_converter_tb.rstn2
+axis_dwidth_converter_tb.tvalid
+@22
+axis_dwidth_converter_tb.tdata[31:0]
+@28
+axis_dwidth_converter_tb.tvalid2
+@22
+axis_dwidth_converter_tb.tdata2[63:0]
+[pattern_trace] 1
+[pattern_trace] 0

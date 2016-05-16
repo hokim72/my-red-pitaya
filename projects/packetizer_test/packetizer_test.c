@@ -22,8 +22,8 @@ int main()
 	for (i=0; i<256; i++) *((uint32_t *)(ram+i*4+0)) = 0;
 
 	*((uint32_t *)(cfg + 0)) = 0;
-	*((uint32_t *)(cfg + 0)) = 7;
 	*((uint32_t *)(cfg + 4)) = 256;
+	*((uint32_t *)(cfg + 0)) = 7;
 
 	sleep(1);
 	for (i=0; i<256; i++){
