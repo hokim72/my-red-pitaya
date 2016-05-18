@@ -1,0 +1,32 @@
+[*]
+[*] GTKWave Analyzer v3.3.66 (w)1999-2015 BSI
+[*] Wed May 18 15:11:43 2016
+[*]
+[dumpfile] "/home/hokim/work/my-red-pitaya/tbn/fifo36e1/build/fifo36e1_tb.vcd"
+[dumpfile_mtime] "Wed May 18 15:06:27 2016"
+[dumpfile_size] 13018
+[savefile] "/home/hokim/work/my-red-pitaya/tbn/fifo36e1/view.gtkw"
+[timestart] 1004100
+[size] 1920 1056
+[pos] -1 -1
+*-15.409882 1140100 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] fifo36e1_tb.
+[sst_width] 225
+[signals_width] 118
+[sst_expanded] 1
+[sst_vpaned_height] 642
+@28
+fifo36e1_tb.clk
+fifo36e1_tb.rstn
+fifo36e1_tb.wren
+@24
+fifo36e1_tb.wdata[63:0]
+@28
+fifo36e1_tb.full
+fifo36e1_tb.rden
+@24
+fifo36e1_tb.rdata[63:0]
+@28
+fifo36e1_tb.empty
+[pattern_trace] 1
+[pattern_trace] 0

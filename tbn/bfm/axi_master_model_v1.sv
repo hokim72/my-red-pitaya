@@ -135,6 +135,7 @@ begin:main
 	axi_araddr_o = adr_i;
 	axi_arvalid_o = 1'b1;
 
+
 	@(posedge aclk_i);
 	while (axi_arready_i === 1'b0)
 		@(posedge aclk_i);

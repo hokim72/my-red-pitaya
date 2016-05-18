@@ -1,0 +1,26 @@
+[*]
+[*] GTKWave Analyzer v3.3.66 (w)1999-2015 BSI
+[*] Mon May 16 16:45:47 2016
+[*]
+[dumpfile] "/home/hokim/work/my-red-pitaya/tbn/axi_bram_reader_v1_0/build/axi_bram_reader_tb.vcd"
+[dumpfile_mtime] "Mon May 16 16:38:52 2016"
+[dumpfile_size] 5926229
+[savefile] "/home/hokim/work/my-red-pitaya/tbn/axi_bram_reader_v1_0/view.gtkw"
+[timestart] 5129000
+[size] 1920 1056
+[pos] -921 -429
+*-17.876293 5191000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] axi_bram_reader_tb.
+[sst_width] 225
+[signals_width] 214
+[sst_expanded] 1
+[sst_vpaned_height] 320
+@28
+axi_bram_reader_tb.clk
+@22
+axi_bram_reader_tb.reader0.bram_porta_addr[9:0]
+axi_bram_reader_tb.reader0.bram_porta_rddata[31:0]
+@23
+axi_bram_reader_tb.rdat[31:0]
+[pattern_trace] 1
+[pattern_trace] 0

@@ -39,9 +39,8 @@ initial begin
 		addra = i;
 		dina[31:0] = i*2;
 		dina[63:32] = i*2+1;
-		//@(posedge clk);
-		//wea = 1'b0;
 	end
+	@(posedge clk);
 	wea = 1'b0;
 	repeat(10) @(posedge clk);
 	for (i=0; i<1024; i++) begin
