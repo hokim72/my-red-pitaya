@@ -66,10 +66,6 @@ set_property CONFIG.PCW_USE_S_AXI_HP0 1 [get_bd_cells ps_0]
 connect_bd_net [get_bd_pins ps_0/M_AXI_GP0_ACLK] [get_bd_pins ps_0/FCLK_CLK0]
 connect_bd_net [get_bd_pins ps_0/S_AXI_HP0_ACLK] [get_bd_pins ps_0/FCLK_CLK0]
 
-#  PCW_IMPORT_BOARD_PRESET red_pitaya.xml
-source red_pitaya.tcl
-set_property -dict [apply_preset IPINST] [get_bd_cells ps_0]
-
 # Create all required interconnections
 apply_bd_automation -rule xilinx.com:bd_rule:processing_system7 -config {
   make_external {FIXED_IO, DDR}
